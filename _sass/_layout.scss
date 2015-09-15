@@ -20,7 +20,7 @@
     line-height: 72px;
     /*letter-spacing: -1px;*/
     margin-bottom: 0;
-    float: left;
+    /*float: left;*/
 
     &,
     &:visited {
@@ -33,16 +33,22 @@
 }
 
 .site-nav {
-    float: right;
-    line-height: 56px;
+    /*float: right;*/
+    font-family: Gill Sans, sans-serif;
+    /*line-height: 56px;*/
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: #DBC79F;
         line-height: $base-line-height;
+
+        &:hover {
+            color: #DAB874;
+            text-decoration: none;
+        }
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
